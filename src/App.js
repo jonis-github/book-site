@@ -1,23 +1,41 @@
-import logo from './logo.svg';
+import { useEffect, useState } from 'react';
 import './App.css';
+import { AllBooks, AppleStoreBanner, Banner, BestBooks, Footer, Hero, Navbar, Popup, Testimonial } from './components';
+
+// aos import
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 function App() {
+
+  const [ orderPopup, setOrderPopup ] = useState( false )
+
+  const handleOrderPopup = () => {
+    setOrderPopup( !orderPopup )
+  }
+
+  useEffect( () => {
+    AOS.init( {
+      offset: 100,
+      duration: 800,
+      easing: "ease-in-sine",
+      delay: 100,
+    } )
+
+    AOS.refresh()
+  }, [] )
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='bg-white dark:bg-gray-900 dark:text-white duration-200'>
+        <Navbar handleOrderPopup={ handleOrderPopup } />
+        <Hero handleOrderPopup={ handleOrderPopup } />
+        <BestBooks handleOrderPopup={ handleOrderPopup } />
+        <Banner />
+        <AppleStoreBanner />
+        <AllBooks />
+        <Testimonial />
+        <Footer />
+        <Popup orderPopup={ orderPopup } handleOrderPopup={ handleOrderPopup } />
     </div>
   );
 }
