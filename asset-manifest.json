@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/book-site/static/css/main.3d84a176.css",
+    "main.js": "/book-site/static/js/main.96966659.js",
+    "static/media/board.png": "/book-site/static/media/board.6900954d6715220a14e4.png",
+    "static/media/logo.png": "/book-site/static/media/logo.5faedcc7cb796cddc7c8.png",
+    "static/media/blue-pattern.png": "/book-site/static/media/blue-pattern.781478ad13c5554efe17.png",
+    "static/media/book2.jpg": "/book-site/static/media/book2.3aa51cdd3ad2318d99f4.jpg",
+    "static/media/dark-mode-button.png": "/book-site/static/media/dark-mode-button.c5b620c1550b3c201b56.png",
+    "static/media/light-mode-button.png": "/book-site/static/media/light-mode-button.9ed4504ff522dfde699a.png",
+    "static/media/app_store.png": "/book-site/static/media/app_store.8a5164ca9f62a2d5c172.png",
+    "static/media/book3.jpg": "/book-site/static/media/book3.2ba8ada4a604e596752f.jpg",
+    "static/media/play_store.png": "/book-site/static/media/play_store.1be3feade6ae12c67801.png",
+    "static/media/library.jpg": "/book-site/static/media/library.f58dc8ada1a9cc85e3d8.jpg",
+    "static/media/book1.jpg": "/book-site/static/media/book1.6a304c3d52f286aee2f0.jpg",
+    "static/media/slick.svg": "/book-site/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/book-site/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/book-site/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/book-site/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/book-site/index.html",
+    "main.3d84a176.css.map": "/book-site/static/css/main.3d84a176.css.map",
+    "main.96966659.js.map": "/book-site/static/js/main.96966659.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d84a176.css",
+    "static/js/main.96966659.js"
+  ]
+}
